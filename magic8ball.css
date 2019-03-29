@@ -1,0 +1,49 @@
+.Magic8Ball {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.submitButton {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#footer {
+    text-align: center
+}
+
+p {
+    size: 15px;
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    color: teal;
+    padding: 10px;
+    border-radius: 42%;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: grey;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color:white;
+}
+
+
