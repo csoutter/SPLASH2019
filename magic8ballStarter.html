@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<!--WELCOME TO SPLASH 2019! This code is for you to make your own! (also this is a comment)-->
+    <head>
+        <!--TODO: update this with your own page name and icon.-->
+        <title>Call this page what you want</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="magic8ballStarter.css"/>
+        <!--TODO: to update this picture, add a picture to the folder on your computer where you cloned your repository
+            and call the name of that picture in the href tag-->
+        <link rel="icon" href="magic8ball.ico"/>
+    </head>
+    <body>
+        <div class="Magic8Ball">
+            <!--notice how the main text (h1) is in the Magic8Ball div. Try taking it out. 
+                What happens? Why do you suppose it behaves this way?-->
+            <div class="text">
+                <h1>NAME ME SOMETHING</h1>
+                <h3>Tell me what you want to know.</h3>
+                <input id="user_input" type="input"/>
+                <!--Doing this to demonstrate what a break does (could do the same thing with CSS)-->
+                <br> 
+                <input id="button" type="button" onClick="response();" value="CHANGE THIS"/>
+                <!--Once the button is pushed, the response will appear where the p branch is-->
+                <p id="response"></p>
+            </div>
+            <img src="magic8ball.png" alt="Magic 8 Ball" style="width: 40%;height: 40%;align-content: center"/>
+        </div>
+        <br>
+        <div class="submitButtonReponse">
+            <!--Cue the JavaScript-->
+            <script>
+                function response() {
+                    var responses = [
+                        //TODO: WRITE SOME RESPONSES! Make them your own.
+                    ];
+                    // the random number generator should multiply by the number of responses you write
+                    var random_number = Math.floor(Math.random() * 7);
+                    document.getElementById("response").innerHTML = responses[random_number];
+                }
+            </script>
+        </div>
+        <footer> 
+            <div id="footer">
+                <!--TODO: Change this to your name!-->
+                <p>Copyright <b><em>ME</em></b>, 2019; Last Modified: <script>document.write(document.lastModified)</script></p>
+                <!--CHALLENGE: what's something esle you could add to the footer?-->
+            </div>
+        </footer>
+        <!--CHALLENGE PROBLEMS: add a list of Frequently Asked Questions for a reference; Add a link to your favorite song somewhere on the page;
+            Add more text to the page; insert another picture; Change the magic 8 ball picture to a picture of your own-->
+    </body>
+
+</html>

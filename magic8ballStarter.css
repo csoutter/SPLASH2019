@@ -1,0 +1,45 @@
+.Magic8Ball {
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#user_input {
+    align-items: center;
+    width: 400px;
+    margin-right: 220px;
+    height: 30px;
+}
+
+.submitButtonResponse {
+    justify-content: center;
+    align-items: center;
+}
+
+#response {
+
+}
+
+#footer {
+
+}
+
+p {
+
+}
+
+#button {
+
+}
+
+body {
+    
+}
+
+h1 {
+
+}
+
+h3 {
+
+}
