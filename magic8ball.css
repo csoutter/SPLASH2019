@@ -2,13 +2,26 @@
     align-items: center;
     display: flex;
     margin: 0 auto;
+    padding: 30px;
     justify-content: center;
 }
 
-.submitButton {
+#user_input {
+    align-items: center;
+    width: 400px;
+    float: right;
+    margin-right: 220px;
+    height: 30px;
+}
+
+.submitButtonResponse {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+#response {
+    font-size: 20px;
 }
 
 #footer {
@@ -20,12 +33,14 @@ p {
     text-align: center;
 }
 
-button {
+#button {
     background-color: white;
     color: teal;
     padding: 10px;
-    border-radius: 42%;
-    font-size: 30px;
+    border-radius: 45%;
+    font-size: 25px;
+    float: left;
+    margin-left: 380px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -43,7 +58,5 @@ h3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 35px;
     text-align: center;
-    color:white;
+    color: darkblue;
 }
-
-
