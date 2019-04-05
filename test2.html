@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Bouncing Ball</title>
+  </head>
+  <body>
+    <canvas id="mycanvas" width="600" height="300"></canvas>
+    <script>
+      var canvas = document.getElementById("mycanvas");
+      var c = canvas.getContext("2d");
+      var x = 0;
+      var y = 100;
+      var vx = 2;
+      var vy = 2;
+      function draw() {
+        c.clearRect(0, 0, canvas.width, canvas.height);
+        x = x + vx;
+        y = y + vy;
+
+        if (x > canvas.width || x < 0) {
+          vx = -vx;
+        }
+        if (y > canvas.height || y < 0) {
+          vy = -vy;
+        }
+
+        c.fillRect(x, y, 50, 100);
+        requestAnimationFrame(draw);
+      }
+      requestAnimationFrame(draw);
+    </script>
+  </body>
+</html>

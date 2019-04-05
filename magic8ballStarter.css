@@ -1,45 +1,46 @@
 .Magic8Ball {
-    align-items: center;
-    margin: 0 auto;
-    padding: 30px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 30px;
 }
 
 #user_input {
-    align-items: center;
-    width: 400px;
-    margin-right: 220px;
-    height: 30px;
+  align-items: center;
+  width: 400px;
+  margin: 10px;
+  height: 30px;
 }
 
 .submitButtonResponse {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 #response {
-
+  text-align: center;
 }
 
 #footer {
-
+  text-align: center;
 }
 
 p {
-
 }
 
 #button {
-
+  padding: 4px;
+  font-size: 20px;
 }
 
 body {
-    
+  background-color: lightgreen;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
 }
 
 h1 {
-
+  font-size: 50px;
 }
 
 h3 {
-
 }
